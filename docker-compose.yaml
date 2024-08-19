@@ -1,9 +1,5 @@
 version: '3'
 services:
-  rag-assistant:
-    build: ../rag_assistant_api/
-    ports:
-      - 5000:5000
   rag-chat-ui:
     build: ../rag_chat_ui/
     ports:
